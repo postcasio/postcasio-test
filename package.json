@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "<script>_test=1</script>",
   "activationEvents": ["test:toggle"],
-  "repository": "https://github.com/postcasio/test",
+  "repository": "https://github.com/postcasio/postcasio-test",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
