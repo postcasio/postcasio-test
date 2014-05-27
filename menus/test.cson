@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable test': 'test:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'test'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'test:toggle' }
+      ]
+    ]
+  }
+]
